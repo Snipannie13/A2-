@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header {
+    text-align: center;
+    font-size: 50px;
+    background-image: url('../img/banner-2.jpg');
+    padding: 30vh 100px;
+    background-size: cover;
+    height: 100vh;
+}
+
+#row1 h2 {
+    font-size: 60px;
+}
+
+.row2 {
+    text-align: center;
+    font-size: 38px;
+}
+
+.column1 {
+    width: 50%;
+    float: left;
+}
+
+#row1 h3 {
+    font-size: 40px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.column2 h2 {
+    width: 100%;
+    font-size: 80px;
+    float: left;
+}
+
+#row2 {
+    background-color: #24eca4;
+    text-align: center;
+}
+
+.column3 {
+    width: 25%;
+    float: left;
+    padding: 50px 0px 50px 0px;
+}
+
+.gallery2 img {
+    width: 70%;
+}
+
+#row3 h2 {
+    font-size: 60px;
+}
+
+#row3 h3 {
+    font-size: 40px;
+}
+
+.column4 {
+    width: 25%;
+    float: left;
+    margin-bottom: -8px;
+}
+
+.gallery3 img {
+    width: 100%;
+}
+
+#row5 {
+    background-color: #44a4fc;
+    text-align: center;
+}
+
+#row6 {
+    color: white;
+    background-color: black;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.column5 {
+    width: 50%;
+    float: left;
+}
+
+.column6 {
+    width: 25%;
+    float: left;
+}
+
+.relleno-lateral {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+@media screen and (max-width: 700px) {
+    /* Aquí dentro van las reglas */
+    #header {
+        padding: 150px 50px 150px 50px;
+        height: 100vh;
+    }
+    .column1 {
+        width: 100%;
+    }
+    .column4 {
+        width: 50%;
+    }
+    .column3 {
+        width: 50%;
+    }
+    .column2 {
+        font-size: px;
+    }
+}
